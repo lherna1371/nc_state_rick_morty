@@ -1,3 +1,5 @@
+# npm install
+
 # install parcel
 
 ### https://parceljs.org/getting-started/webapp/

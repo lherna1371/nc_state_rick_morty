@@ -1,7 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&family=Montserrat:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&family=Montserrat:wght@300&display=swap');
 
+@font-face {
+    font-family: 'getSchwifty';
+    src: url(./fonts/get_schwifty.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
+h1 {
+    font-family: 'getSchwifty';
+}
 
 body {
     text-align: center;
