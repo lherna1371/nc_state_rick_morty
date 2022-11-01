@@ -1,13 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&family=Montserrat:wght@300&display=swap');
 
-.alive-header-text {
-    color: green;
+
+
+body {
+    text-align: center;
+}
+
+#or-text {
     font-family: 'Balsamiq Sans', cursive;
     font-family: 'Montserrat', sans-serif;
     font-size: 2em;
     font-weight: 900;
 }
 
+.alive-header-text {
+    color: green;
+    font-family: fantasy;
+    font-size: 2em;
+    font-weight: 900;
+}
+
 .dead-header-text {
     color: red;
+    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    font-weight: 900;
+}
+
+table {
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+table, td, th, tr {
+    font-size: 1.2em;
+    /* border: 2px solid red; */
+}
+
+th, td {
+    padding-left: 10px;
+}
+
+button {
+    font-size: 24px;
+}
+
+.character-status {
+    color: yellowgreen;
 }

@@ -12,13 +12,12 @@
 
 <body>
     <h1>Rick & Morty</h1>
-    <p class="dead-header-text">Dead</p>
-    <p>OR</p>
-    <p class="alive-header-text">Alive?</p>
+    <p><span class="dead-header-text">Dead</span> <span id="or-text">or</span> <span class="alive-header-text">Alive</span></p>
 
     <main>
         <div class="character-profile">
-            <img id="character-image" src="https://via.placeholder.com/150" alt="random image">
+            <img id="character-image" src="https://via.placeholder.com/300" alt="random image">
+            <h3 class="character-status">Get character and status</h3>
         </div>
         <div><button>Random Character</button></div>
         <div>
@@ -28,8 +27,8 @@
                     <th>Alive</th>
                 </tr>
                 <tr>
-                    <td>0</td>
-                    <td>0</td>
+                    <td id="dead-counter">0</td>
+                    <td id="alive-counter">0</td>
                 </tr>
             </table>
         </div>
