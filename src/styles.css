@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&family=Montserrat:wght@300&display=swap');
+
+.alive-header-text {
+    color: green;
+    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    font-weight: 900;
+}
+
+.dead-header-text {
+    color: red;
+}
